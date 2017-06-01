@@ -96,6 +96,9 @@ public class CrearPacienteController
             errorPapellido.setText("");
             errorSApellido.setText("Ingrese Segundo Apellido");
         }
+        else
+        {
+        }
     }
   }
   
