@@ -98,6 +98,7 @@ public class CrearPacienteController
         }
         else
         {
+            System.out.println("");
         }
     }
   }
