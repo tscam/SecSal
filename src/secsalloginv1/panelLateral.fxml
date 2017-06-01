@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="193.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="secsalloginv1.PanelLateralController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="193.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../fondo.jpg" />
+         </image></ImageView>
+      <JFXButton fx:id="btnCrearPaciente" buttonType="RAISED" onAction="#creaPaciente" prefHeight="62.0" prefWidth="193.0" style="-fx-background-color: #f1f1f1;" text="Crear Paciente" />
+      <JFXButton fx:id="btnVerResultados" prefHeight="62.0" prefWidth="193.0" style="-fx-background-color: #f1f1f1;" text="Resultados Examenes" />
+      <JFXButton fx:id="btnSolicitarExamen" prefHeight="62.0" prefWidth="193.0" style="-fx-background-color: #f1f1f1;" text="Solicitar Examenes" />
+      <JFXButton fx:id="btnSalir" onAction="#salir" prefHeight="62.0" prefWidth="193.0" style="-fx-background-color: #f1f1f1;" text="Salir" />
+   </children>
+</VBox>
