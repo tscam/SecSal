@@ -64,7 +64,6 @@ public class FXMLDocumentController
     }
     else {
       System.out.println("Uusario o contraseña Incorrecto");
-        System.out.println("El mordelon se la come");
     }
   }
   
