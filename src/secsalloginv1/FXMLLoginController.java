@@ -23,10 +23,6 @@ public class FXMLLoginController
   implements Initializable
 {
   @FXML
-  private ResourceBundle resources;
-  @FXML
-  private URL location;
-  @FXML
   private Label label;
   @FXML
   private JFXButton btnIniciar;
